@@ -1,0 +1,11 @@
+Flask==2.3.2                        # For creating the backend API (if not already included)
+flask-cors==3.0.10                  # To enable CORS, allowing the frontend to communicate with the backend
+requests==2.31.0                    # For making HTTP requests (e.g., querying external APIs)
+google-generativeai                 # To use Google Generative AI (you may need to install the official library if available)
+streamlit==1.24.0                   # For creating the Streamlit application
+link-preview-generator              # For generating link previews (if you’re using link preview functionality)
+selenium==4.11.2                    # For web scraping with a browser
+webdriver-manager==4.0.0            # To automatically manage WebDriver for Selenium
+langchain                           # For using LangChain and LangChain community resources
+langchain-community                 # To access community packages for LangChain
+unstructured                        # For unstructured data processing
